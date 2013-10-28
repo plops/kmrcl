@@ -1,0 +1,18 @@
+Source: cl-kmrcl
+Section: lisp
+Priority: optional
+Maintainer: Kevin M. Rosenberg <kmr@debian.org>
+Build-Depends-Indep: dh-lisp
+Build-Depends: debhelper (>= 7.0.0)
+Standards-Version: 3.9.2.0
+Homepage: http://files.b9.com/kmrcl/
+Vcs-Git: git://git.b9.com/kmrcl.git
+Vcs-Browser: http://git.b9.com/?p=kmrcl.git
+
+Package: cl-kmrcl
+Architecture: all
+Depends: ${misc:Depends}, cl-rt
+Description: General Utilities for Common Lisp Programs
+ This package includes general purpose utilities for Common Lisp
+ programs. It is packages for Debian primarily to support more complex
+ Common Lisp packages by the upstream author Kevin Rosenberg.
